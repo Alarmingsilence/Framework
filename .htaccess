@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Needs to be enabled for things to work correctly while on the real web server.
+RewriteBase /
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-l
+
+RewriteRule ^((?!index.php).+)$ index.php?url=$1 [QSA,L]
