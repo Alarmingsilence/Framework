@@ -4,7 +4,7 @@
         <title><?php echo $title; ?></title>
     </head>
     <body>
-        <h1>Outside layout</h1>
+        <h1>Standard layout</h1>
         <?php
         
         // View content goes here
