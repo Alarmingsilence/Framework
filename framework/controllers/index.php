@@ -8,7 +8,7 @@ class Index extends Controller {
     
     public function index(){
         $data['title'] = 'Page title goes here';
-        $this->view->render('outside', 'index', $data);
+        $this->view->render('standard', 'index', $data);
     }
     
 }
