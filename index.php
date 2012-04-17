@@ -4,7 +4,7 @@
  * Framework
  * 
  * Long description {@link http://www.google.se/ This is a link} or whatever.
- * Updated : 2012/03/22
+ * Updated : 2012/04/17
  * 
  * @author Johan Hjerpe <hello.johan@live.se>
  * @version 1.0
